@@ -1,5 +1,5 @@
 $(function() {
-	var login = false;
+	var login = true;
 	
 	$('#1').animate({top: "-6px", opacity: "0"}, 0);
 	$('#2').animate({top: "-6px", opacity: "0"}, 0);

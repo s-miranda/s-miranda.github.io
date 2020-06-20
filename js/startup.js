@@ -1,5 +1,6 @@
 $(function() {
-	if(window.location.href == "s-miranda.github.io"){
+	var hi = true;
+	if(hi){
 		$('#1').animate({top: "-6px", opacity: "0"}, 0);
 		$('#2').animate({top: "-6px", opacity: "0"}, 0);
 		$('#3').animate({top: "-6px", opacity: "0"}, 0);

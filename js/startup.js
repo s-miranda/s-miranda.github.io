@@ -1,6 +1,4 @@
 $(function() {
-	var login = document.currentScript.getAttribute('login');
-	
 	$('#1').animate({top: "-6px", opacity: "0"}, 0);
 	$('#2').animate({top: "-6px", opacity: "0"}, 0);
 	$('#3').animate({top: "-6px", opacity: "0"}, 0);
@@ -10,9 +8,7 @@ $(function() {
 		$('#1').animate({top: "0px", opacity: "1"}, 500);
 		$('#2').delay(250).animate({top: "0px", opacity: "1"}, 500);
 		$('#3').delay(500).animate({top: "0px", opacity: "1"}, 500);
-		if(login) {
-			$('#user').delay(2000).animate({top: "22px", opacity: "1"}, 1000);
-		}
+		$('#user').delay(2000).animate({top: "22px", opacity: "1"}, 1000);
 	});
 	
 	error = []

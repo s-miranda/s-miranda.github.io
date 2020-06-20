@@ -1,5 +1,5 @@
 $(function() {
-	var anim = window.location.href == "https://s-miranda.github.io/";
+	var anim = true;
 	if(anim){
 		$('#1').animate({top: "-6px", opacity: "0"}, 0);
 		$('#2').animate({top: "-6px", opacity: "0"}, 0);

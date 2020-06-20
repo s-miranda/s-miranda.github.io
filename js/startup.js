@@ -1,6 +1,6 @@
 $(function() {
-	var hi = window.location.href == "https://s-miranda.github.io/";
-	if(hi){
+	var anim = window.location.href == "https://s-miranda.github.io/";
+	if(anim){
 		$('#1').animate({top: "-6px", opacity: "0"}, 0);
 		$('#2').animate({top: "-6px", opacity: "0"}, 0);
 		$('#3').animate({top: "-6px", opacity: "0"}, 0);

@@ -22,8 +22,55 @@
 	});
 </script>
 
+<script type="text/javascript">
 
+    $(document).ready(function () {
+        $("#container").flipBook({
+            pages:[
+                {src:"images/page1.jpg", thumb:"images/book2/thumb1.jpg", title:"Cover"},
+                {src:"images/page2.jpg", thumb:"images/book2/thumb2.jpg", title:"Page two"},
+                {src:"images/page3.jpg", thumb:"images/book2/thumb3.jpg", title:"Page three"},
+                {src:"images/page4.jpg", thumb:"images/book2/thumb4.jpg", title:""},
+                {src:"images/page5.jpg", thumb:"images/book2/thumb5.jpg", title:"Page five"},
+                {src:"images/page6.jpg", thumb:"images/book2/thumb6.jpg", title:"Page six"},
+                {src:"images/page7.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
+                {src:"images/page8.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
+                {src:"images/page9.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
+                {src:"images/page10.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
+                {src:"images/page11.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
+                {src:"images/page12.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
+                {src:"images/page13.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
+                {src:"images/page14.jpg", thumb:"images/book2/thumb8.jpg", title:"Last"}
+            ],
+            backgroundColor:"#000",
 
+			sideNavigationButtons:false,
+			currentPage : {enabled:false},
+			btnZoomIn : {enabled:false},
+			btnZoomOut : {enabled:false},
+			btnToc : {enabled:false},
+			btnShare : {enabled:false},
+			btnDownloadPages : {enabled:false},
+			btnDownloadPdf : {enabled:false},
+			btnSound : {enabled:false},
+			btnAutoplay : {enabled:false},
+			btnSelect : {enabled:false},
+			btnBookmark : {enabled:false},
+			btnThumbs : {enabled:false},
+			btnPrint : {enabled:false},
+			btnExpand : {enabled:false},
+			btnNext : {enabled:false},
+			btnPrev : {enabled:false},
+			
+			menuMargin:10,
+            menuBackground:'none',
+            menuShadow:'none',
+            menuAlignHorizontal:'right',
+            menuOverBook:true,
+        });
+
+    })
+</script>
 
 </head>
 

@@ -17,7 +17,9 @@
 
     $(document).ready(function () {
         $("#container").flipBook({
+
             pages:[
+
                 {src:"images/book2/page1.jpg", thumb:"images/book2/thumb1.jpg", title:"Cover"},
                 {src:"images/book2/page2.jpg", thumb:"images/book2/thumb2.jpg", title:"Page two"},
                 {src:"images/book2/page3.jpg", thumb:"images/book2/thumb3.jpg", title:"Page three"},
@@ -26,9 +28,40 @@
                 {src:"images/book2/page6.jpg", thumb:"images/book2/thumb6.jpg", title:"Page six"},
                 {src:"images/book2/page7.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
                 {src:"images/book2/page8.jpg", thumb:"images/book2/thumb8.jpg", title:"Last"}
-            ]
-        });
 
+            ],
+
+			btnZoomIn : {vAlign:'top', hAlign:'right'},
+			btnZoomOut : {vAlign:'top', hAlign:'right'},
+			btnToc : {vAlign:'top', hAlign:'right'},
+			btnShare :{vAlign:'top', hAlign:'right'},
+			btnDownloadPages : {vAlign:'top', hAlign:'right'},
+			btnDownloadPdf : {vAlign:'top', hAlign:'right'},
+            btnSound : {vAlign:'top', hAlign:'right'},
+            btnToc : {vAlign:'top', hAlign:'left'},
+            btnThumbs : {vAlign:'top', hAlign:'left'},
+            btnBookmark : {vAlign:'top', hAlign:'left'},
+            btnExpand : {vAlign:'top', hAlign:'right'},
+			btnPrint : {vAlign:'top', hAlign:'right'},
+            currentPage:{hAlign:'center'},
+
+            viewMode:'3d',
+
+            skin:'dark',
+
+            menuMargin:10,
+            menuTransparent:true,
+            menuOverBook:true,
+
+            menu2Margin:10,
+            menu2Transparent:true,
+            menu2OverBook:true,
+
+            btnBackground:"rgba(0,0,0,.3)",
+            btnColor:'rgb(255,120,60)',
+
+
+        });
     })
 </script>
 

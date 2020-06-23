@@ -26,10 +26,35 @@
                 {src:"images/book2/page6.jpg", thumb:"images/book2/thumb6.jpg", title:"Page six"},
                 {src:"images/book2/page7.jpg", thumb:"images/book2/thumb7.jpg", title:"Page seven"},
                 {src:"images/book2/page8.jpg", thumb:"images/book2/thumb8.jpg", title:"Last"}
+            ],
+
+            //array of custom buttons, each has icon, title and onclick function
+			buttons:[
+
+                {
+                    icon:'fa-play-circle',
+                    title:'Custom button 1',
+                    onclick:function(){alert('custom button 1 click handler')}
+                },
+                {
+                    icon:'fa-play-circle-o',
+                    title:'Custom button 2',
+                    onclick:customButtonHandler
+                }
+
             ]
+
         });
 
     })
+
+    function customButtonHandler(){
+
+        alert('custom button 2 clicked')
+
+    }
+
+
 </script>
 
 </head>
